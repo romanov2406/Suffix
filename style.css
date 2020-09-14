@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    padding: 0 24px;
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+    position: relative;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    padding: 115px;
+
+
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    width: 24px;
+    height: 19px;
+    left: 51px;
+    top: 35px;
+
+}
+
+.info_nav {
+
+    position: absolute;
+    width: 344px;
+    height: 359px;
+    left: 84px;
+    top: 75px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+}
+
+.info_nav ul li {
+
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.info_nav ul li a {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.info_date {
+
+    display: flex;
+
+    margin: 0 auto;
+    justify-content: space-between;
+
+
+}
+
+.info_lifestyle {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+.at_vero {
+    margin: 0 auto;
+    padding: 82px;
+}
+
+.at_vero_txt {
+    margin-top: 57px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: left;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.ondio_up {
+    padding: 59px;
+
+}
+
+.ondio {
+    text-align: left;
+    margin-top: 33px;
+}
+
+.read_more {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    padding: 19px 65px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 40px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.read_more:hover {
+    background: white;
+    color: black;
+}
+
+.info_date_date {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    letter-spacing: 7px;
+}
+
+.info:nth-child(1) {
+    background-image: url(Images/philip-martin-5aGUyCW_PJw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.info:nth-child(2) {
+    background-color: rgb(0, 0, 0);
+}
+
+.txt {
+    margin: 0 auto;
+    margin-top: 46px;
+    margin-bottom: 25px;
+}
+
+.futured {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #1F1F1D;
+}
+
+.content_lifestyle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 27px;
+}
+
+.content_lifestyle img {
+    width: 100%;
+}
+
+.lifestail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 27px;
+}
+
+.lifestail img {
+    width: 100%;
+    height: auto;
+}
+
+.main-content .section-label {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+    margin-top: 55px;
+}
+
+
+
+.date {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+
+.datum {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 6px;
+
+    color: #000000;
+}
+
+.date_text {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.ipusm-title {
+    font-weight: bold;
+    font-family: Kanit;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 30px;
+    color: #1F1F1D;
+}
+
+.em {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.em_txt {
+    display: flex;
+    overflow: hidden;
+    /*width: 557px;*/
+    justify-content: space-between;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #1F1F1D;
+
+    margin-bottom: 63px;
+    margin-top: 15px;
+}
+
+.ppl {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.subscribe-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.date_text1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.datum {
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.lifestyle {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.vero {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 52px;
+}
+
+.vero_txt {
+    display: flex;
+    justify-content: space-between;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 22px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #1F1F1D;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+    margin-bottom: 71px;
+}
+
+.btn {
+    width: 167px;
+    height: 28px;
+    font-family: Kanit;
+    background-color: rgb(88, 88, 88);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foto1_2:nth-child(2) {
+    background-color: rgb(0, 0, 0);
+}
+
+.foto2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 54px;
+}
+.foto1_2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.foto1_2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+    overflow: hidden;
+    color: white;
+}
+
+.issue {
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 51px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.btn_subscribe {
+    width: 198px;
+    height: 42px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+
+
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn_subscribe:hover {
+    background: white;
+    color: black;
+}
+
+.interwiu {
+    width: 100%;
+    margin-bottom: 27px;
+}
+
+.interwiu_txt {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 31px;
+}
+
+.footer {
+    width: 100%;
+    height: 142px;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_txt {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* Medium Devices */
+@media screen and (max-width: 1200px) {
+    .burger {
+        display: block;
+    }
+
+    .info_nav {
+        display: none;
+    }
+
+    .info {
+        padding: 128px 104px;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 970px) {
+    .sufix img {
+        width: 105px;
+        height: 20px;
+    }
+
+    .burger {
+        top: 23px;
+        left: 51px;
+    }
+
+    .header {
+        height: 65px;
+    }
+
+    .info {
+        padding: 72px 21px;
+    }
+
+    .info_lifestyle {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+
+    .burger {
+        left: 23px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .info {
+        padding: 15px 12px 32px;
+    }
+
+    .info:nth-child(1) {
+        height: 294px;
+    }
+
+    .content_lifestyle {
+        grid-template-columns: 1fr;
+    }
+
+    .lifestail {
+        grid-template-columns: 1fr;
+    }
+    .subscribe-block {
+        display: block;
+    }
+    .issue{
+        text-align: center;
+    }
+    .interwiu_txt{
+        margin-top: 15px;
+    }
+}
